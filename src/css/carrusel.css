@@ -1,0 +1,81 @@
+input[type=radio]{
+    display:none;
+}
+
+/* Contenedor principal del carrusel */
+
+.title{
+    display: grid;
+    justify-items: center;
+    font-family: "Permanent Marker", cursive;
+    font-size: 40px;
+    font-style: normal;
+}
+.cont-carr {
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* Contenedor de las tarjetas */
+.tarj_carr {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tarjeta individual */
+.card {
+    position: absolute;
+    width: 300px;
+    height: 420px;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    cursor: pointer;
+    opacity: 0.4;
+    z-index: 0;
+}
+
+/* Imagen dentro de cada tarjeta */
+.card img.port_prox {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Cuando un input está checked, posiciona la imagen principal */
+#item-1:checked ~ .tarj_carr #game-1,
+#item-2:checked ~ .tarj_carr #game-2,
+#item-3:checked ~ .tarj_carr #game-3,
+#item-4:checked ~ .tarj_carr #game-4 {
+    transform: translateX(0) scale(1.1);
+    opacity: 1;
+    z-index: 2;
+}
+
+/* Imagen a la derecha */
+#item-1:checked ~ .tarj_carr #game-2,
+#item-2:checked ~ .tarj_carr #game-3,
+#item-3:checked ~ .tarj_carr #game-4,
+#item-4:checked ~ .tarj_carr #game-1 {
+    transform: translateX(320px) scale(0.7);
+    z-index: 1;
+}
+
+/* Imagen a la izquierda */
+#item-1:checked ~ .tarj_carr #game-4,
+#item-2:checked ~ .tarj_carr #game-1,
+#item-3:checked ~ .tarj_carr #game-2,
+#item-4:checked ~ .tarj_carr #game-3 {
+    transform: translateX(-320px) scale(0.7);
+    z-index: 1;
+}

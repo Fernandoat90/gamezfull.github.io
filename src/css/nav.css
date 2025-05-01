@@ -1,0 +1,25 @@
+#nav_list{
+    display:flex;
+    justify-content:space-between;
+    list-style: none;
+    gap: 200px;
+}
+
+#home{
+    width:65px;
+}
+
+.nav_op{
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_op:hover{
+    background-color:rgba(195, 192, 192, 0.1);
+    border-radius: 10px;
+    font-size: 2.2em;
+    transition: 0.4s;
+}
+
+
