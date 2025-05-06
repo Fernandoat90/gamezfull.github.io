@@ -56,6 +56,67 @@ hr {
     color: white;
 }
 
+@media(max-width:480px){
+    * {
+        background-color: black;
+        color: white;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+    
+    
+    
+    #head {
+        position: fixed;
+        top: 0;
+        width: 80vp;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Permanent Marker", cursive;
+        font-size: 15px;
+        font-style: normal;
+        background-color: black;
+        z-index: 1000;
+    }
+    
+    #hand {
+        margin-left: 5px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    #nav_bar {
+        position: fixed;
+        top: 100px;
+        width: 100vp;
+        height: 70px;
+        background-color: black;
+        z-index: 900;
+        display: flex;
+        justify-content:space-between;
+    }
+    
+    #main {
+        background-color: black;
+        padding-top: 150px;
+        min-height: 300px;
+    }
+
+    
+    
+    hr {
+        border: 1px solid red;
+    }
+    
+    
+    #foot {
+        color: white;
+    }
+}
+
 
 
 
