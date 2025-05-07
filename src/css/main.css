@@ -51,8 +51,8 @@
     .game_list{
         display: grid;
         grid-template-columns: repeat(2, 0.2fr);
-        padding:10px;
-        gap:10px;
+        padding:0px;
+        gap:0px;
     }
     
     .ports{
