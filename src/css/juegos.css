@@ -56,7 +56,6 @@ span{
 
 #requisitos{
     width:80%;
-    border:2px solid green;
     min-height: 200px;
     max-height: 400px;
     margin-left:10%;
@@ -70,7 +69,6 @@ span{
 }
 
 #req-min{
-    border:1px solid red;
     width: 50%;
 }
 

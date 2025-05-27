@@ -22,6 +22,12 @@ carruselCSS.rel="stylesheet";
 carruselCSS.href="./src/css/carrusel.css";
 document.head.appendChild(carruselCSS);
 
+/*Link footer*/
+footerCSS=document.createElement("link");
+footerCSS.rel="stylesheet";
+footerCSS.href="./src/css/footer.css";
+document.head.appendChild(footerCSS);
+
 /*Link pag juegos*/
 juegosCSS=document.createElement("link");
 juegosCSS.rel="stylesheet";

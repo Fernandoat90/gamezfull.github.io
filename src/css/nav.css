@@ -22,7 +22,6 @@
     transition: 0.4s;
 }
 
-
 @media(max-width:480px){
     #nav_list{
         display:flex;

@@ -6,7 +6,8 @@
     <title>Gamez Full</title>
     <link rel="shortcut icon" href="./src/image/logos/hand.png" type="image/x-icon">
     <script src="./src/js/links.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="./src/js/comentarios.js"></script>
 </head>
 <body>
     
@@ -165,7 +166,64 @@
     </main>
 <hr>
     <footer id="foot">
-        <h1> Aqui va texarea,formulario y medio de contacto</h1>
+
+        <div id="foot-head">
+
+            <div id="form-coments">
+                
+                <h2 class=title>Comentarios</h2>
+                
+                <div class="contenedor-form">
+
+                    <fieldset class="chargeForm">
+                    
+                    <form id="form-data">
+                        
+                        <label for="name">Nombre:</label>
+                        <br>
+                        <input type=text name=nom id="name" placeholder="Indique su nombre" pattern="[A-Za-z\s]+" minlength=4 maxlength=30>
+                        <br>
+                        <label for="mens">Dejanos tu comentario:</label>
+                        <br>
+                        <textarea name="comt" id="mens" cols="30" rows="8"></textarea>
+                        <br>
+                        <button id="carga" type="submit">Comentar</button>
+                    
+                    </form>
+
+                    </fieldset>
+
+                    <div id="comentarios">
+                    
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="created">
+                    <h3 class="title">Creado Por<br>Fernando Torres</h3>
+                    <img src="./src/image/img-me.jpeg" alt="Fernando" id="img-me">
+            </div>
+        </div>
+
+        <div id="contact">
+            <a href="https://github.com/Fernandoat90/gamezfull.github.io" target="_blank">
+                <img class="iconos" src="./src/image/logos/github.png" alt="github">
+            </a>
+
+            <a href="https://www.linkedin.com/in/fernando-torres-b13199237/" target="_blank">
+                <img class="iconos" src="./src/image/logos/linke.png" alt="linkedin">
+            </a>
+
+            <a href="mailto:fernandoat90@gmail.com?subject=Consulta&body=Hola, quiero contactarte." target="_blank">
+                <img class="iconos" src="./src/image/logos/gmail.png" alt="">
+            </a>
+            
+            <a href="https://www.facebook.com/fernando.torres.549436" target="_blank">
+                <img class="iconos" src="./src/image/logos/face.png" alt="">
+            </a>
+        </div>
     </footer>
 
 <script src="./src/js/control_game.js"></script>
