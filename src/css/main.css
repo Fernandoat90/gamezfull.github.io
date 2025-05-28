@@ -51,8 +51,8 @@
     
     .game_list{
         display: grid;
-        grid-template-columns: repeat(2, 0.2fr);
-        padding-left:0px;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left:10px;
         gap:0px;
     }
     
@@ -65,7 +65,7 @@
     }
     
     .imagen{
-        width:150px;
+        width:120px;
     }
     
     .title_game{
