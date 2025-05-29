@@ -27,7 +27,7 @@
         display:flex;
         justify-content:space-between;
         list-style: none;
-        gap: 22px;
+        gap: 20px;
     }
     
     #home{
@@ -37,7 +37,7 @@
     }
     
     .nav_op{
-        font-size: 0.7em;
+        font-size: 1em;
         font-weight: bold;
         text-decoration: none;
         color: white;

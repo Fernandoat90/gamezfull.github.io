@@ -1,0 +1,28 @@
+Página GAMEZ FULL
+
+1)El usuario visualizará en la página principal las secciones de Juegos, Recomendados, Próximamente y Contactos.
+
+2)El nav contará con enlaces que lo redirigirán a las secciones adaptadas en el index.
+
+3)La sección de Juegos contará, al igual que Recomendados, con enlaces que lo redirigirán a la descripción de cada juego.
+
+4)Cada enlace redirigirá al usuario a la página juegos.html, la cual será autocompletada mediante JavaScript en las secciones predeterminadas.
+
+5)La sección Juegos se dividirá en:
+    5.a) Imagen principal.
+    5.b) Descripción principal (tamaño, género y plataforma).
+    5.c) Gameplay.
+    5.d) Descripción del juego.
+    5.e) Requisitos necesarios para su jugabilidad.
+
+6)La sección Recomendados contará con las mismas características que Juegos.
+
+7)La sección Próximamente mostrará las futuras publicaciones que contendrá la página.
+
+8)La sección Contactos contará con:
+    8.a) Sección de comentarios con un formulario para dejar una reseña libre sobre la página, el cual será manejado por una base de datos para almacenar y mostrar los comentarios mediante JavaScript (BD → Supabase).
+    8.b) Sección del creador de la página.
+    8.c) Sección para contactar directamente con el creador, con 4 imágenes que redirigirán a las redes sociales del dueño de la página.
+
+¡MUCHAS GRACIAS POR SU VISITA!
+    
