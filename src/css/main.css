@@ -1,47 +1,48 @@
-#games{
-    align-items: center;
-}
+@media(min-width:1025px){
+    #games{
+        align-items: center;
+    }
 
-.game_list{
-    display: grid;
-    grid-template-columns: repeat(3, 0.5fr);
-    padding:20px;
-    gap:20px;
-}
+    .game_list{
+        display: grid;
+        grid-template-columns: repeat(3, 0.5fr);
+        padding:20px;
+        gap:20px;
+    }
 
-.ports{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    padding: 5px;
-}
+    .ports{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+    }
 
-.imagen{
-    width:250px;
-}
+    .imagen{
+        width:250px;
+    }
 
-.title_game{
-    padding: 10px;
-    text-align: center;
-}
+    .title_game{
+        padding: 10px;
+        text-align: center;
+    }
 
-.title_game>a{
-    text-decoration: none;
-    font-size:18px;
-}
+    .title_game>a{
+        text-decoration: none;
+        font-size:18px;
+    }
 
-.title_game>a:hover{
-    color:red;
-    transition:0.5s;
-    font-size:22px;
-}
+    .title_game>a:hover{
+        color:red;
+        transition:0.5s;
+        font-size:22px;
+    }
 
-#prox{
-    min-width:300px;
-    max-width:600px;
+    #prox{
+        min-width:300px;
+        max-width:600px;
+    }
 }
-
 /*Celulares*/
 @media(max-width:480px){
     #games{
@@ -93,7 +94,51 @@
 }
 
 /*Tablets*/
-@media (min-width:481px)and(max-width:767px) {
+@media (max-width:1024px) {
+        #games{
+        margin-left:-30px;
+        align-items:center;
+    }
     
+    .game_list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left:10px;
+        gap:0px;
+    }
+    
+    .ports{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 10px  5px 30px;
+    }
+    
+    .imagen{
+        width:170px;
+    }
+    
+    .title_game{
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .title_game>a{
+        text-decoration: none;
+        font-size:10px;
+    }
+    
+    .title_game>a:hover{
+        color:red;
+        transition:0.5s;
+        font-size:15px;
+    }
+    
+    #prox{
+        min-width:300px;
+        max-width:600px;
+    }
+
 }
 

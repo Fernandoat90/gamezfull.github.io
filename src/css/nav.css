@@ -1,33 +1,36 @@
-#nav_list{
-    display:flex;
-    justify-content:space-between;
-    list-style: none;
-    gap: 200px;
+@media(min-width:1025px){
+    #nav_list{
+        display:flex;
+        justify-content:space-between;
+        list-style: none;
+        gap: 200px;
+    }
+
+    #home{
+        width:65px;
+    }
+
+    .nav_op{
+        font-size: 2em;
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav_op:hover{
+        background-color:rgba(195, 192, 192, 0.1);
+        border-radius: 10px;
+        font-size: 2.2em;
+        transition: 0.4s;
+    }
 }
 
-#home{
-    width:65px;
-}
-
-.nav_op{
-    font-size: 2em;
-    text-decoration: none;
-    color: white;
-}
-
-.nav_op:hover{
-    background-color:rgba(195, 192, 192, 0.1);
-    border-radius: 10px;
-    font-size: 2.2em;
-    transition: 0.4s;
-}
-
+/*Celulares*/
 @media(max-width:480px){
     #nav_list{
         display:flex;
         justify-content:space-between;
         list-style: none;
-        gap: 22px;
+        gap: 20px;
     }
     
     #home{
@@ -50,4 +53,34 @@
         transition: 0.4s;
     }
 
+}
+
+/*Tablets*/
+@media (max-width:1024px) {
+    #nav_list{
+        display:flex;
+        justify-content:space-between;
+        list-style: none;
+        gap: 100px;
+    }
+    
+    #home{
+        margin-right:-5px;
+        margin-left:-5px;
+        width:50px;
+    }
+    
+    .nav_op{
+        font-size: 1.5em;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .nav_op:hover{
+        background-color:rgba(195, 192, 192, 0.1);
+        border-radius: 10px;
+        font-size: 1em;
+        transition: 0.4s;
+    }
 }
