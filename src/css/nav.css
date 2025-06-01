@@ -59,9 +59,8 @@
         display:flex;
         justify-content:space-between;
         list-style: none;
-        flex-wrap: wrap;
         justify-content: center;
-        gap: 2em;
+        gap: 6vw;
     }
     
     #home{
@@ -75,7 +74,7 @@
         font-weight: bold;
         text-decoration: none;
         color: white;
-        gap: 20%;
+        gap:6vw;
     }
     
     .nav_op:hover{
