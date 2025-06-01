@@ -1,36 +1,138 @@
 #game-content{
+        width:100%;
+        height:100%;
+    }
+
+    .game-port{
+        width:220px;
+        height:300px;
+        margin-top:250px;
+        margin-left:200px;
+    }
+
+    .titulo{
+        margin-top:-300px;
+        margin-left:-350px;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .game-play{
+        width: 500px;
+        height: 390px;
+        margin-top: -60px;
+        margin-left:1000px;
+    }
+
+    #descript{
+        list-style:none;
+        font-size:2em;
+        font-weight:bold;
+        margin-top:-290px;
+        margin-left:470px;
+    }
+
+    span{
+        font-size: 0.7em;
+        font-weight: lighter;
+    }
+
+    #info-game{
+        align-items:center;
+        margin-top:200px;
+        margin-left:15%;
+        width:65%;
+        min-height:200px;
+        max-height:600px;
+    }
+
+    .text-desc{
+        background-color:rgb(15, 14, 14);
+        padding:30px 70px 30px 70px;
+        text-align: center;
+        font-size:1.5em;
+    }
+
+    #requisitos{
+        width:80%;
+        min-height: 200px;
+        max-height: 400px;
+        margin-left:10%;
+    }
+
+    .content-req{
+        align-items: center;
+        margin: 15px;
+        display:flex;
+        gap:5px;
+    }
+
+    #req-min{
+        width: 50%;
+    }
+
+    #req-max{
+        width: 50%;
+    }
+
+    .req-list{
+        background-color:rgb(15, 14, 14);
+        min-height:200px;
+        max-height:400px;
+        list-style:none;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+
+    .req-list>li,h2,.min-list,.max-list{
+        background-color:rgb(15, 14, 14);
+    }
+
+    .cont-list{
+        font-size: 1em;
+    }
+
+    .min-list, .max-list{
+        font-size:0.9em;
+        font-weight:lighter;
+    }
+
+
+@media(max-width:480px){
+#game-content{
     width:100%;
     height:100%;
 }
 
 .game-port{
-    width:220px;
-    height:300px;
-    margin-top:250px;
-    margin-left:200px;
+    width:160px;
+    height:220px;
+    margin-top:200px;
+    margin-left:150px;
 }
 
 .titulo{
-    margin-top:-300px;
-    margin-left:-350px;
+    margin-top:0px;
+    margin-left:-40px;
     font-size: 2em;
     font-weight: bold;
     text-align: center;
 }
 
 .game-play{
-    width: 500px;
-    height: 390px;
-    margin-top: -60px;
-    margin-left:1000px;
+    width: 300px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left:70px;
 }
 
 #descript{
     list-style:none;
-    font-size:2em;
+    font-size:1em;
     font-weight:bold;
-    margin-top:-290px;
-    margin-left:470px;
+    margin-top:-300px;
+    margin-left:150px;
 }
 
 span{
@@ -40,7 +142,7 @@ span{
 
 #info-game{
     align-items:center;
-    margin-top:200px;
+    margin-top:250px;
     margin-left:15%;
     width:65%;
     min-height:200px;
@@ -49,9 +151,9 @@ span{
 
 .text-desc{
     background-color:rgb(15, 14, 14);
-    padding:30px 70px 30px 70px;
+    padding:20px 50px 20px 50px;
     text-align: center;
-    font-size:1.5em;
+    font-size:0.8em;
 }
 
 #requisitos{
@@ -64,16 +166,15 @@ span{
 .content-req{
     align-items: center;
     margin: 15px;
-    display:flex;
-    gap:5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
-#req-min{
-    width: 50%;
-}
-
-#req-max{
-    width: 50%;
+#req-min,
+#req-max {
+    width: 80%;
 }
 
 .req-list{
@@ -81,80 +182,22 @@ span{
     min-height:200px;
     max-height:400px;
     list-style:none;
-    font-size: 1.3em;
+    font-size: 1em;
     font-weight: bold;
 }
 
 .req-list>li,h2,.min-list,.max-list{
-     background-color:rgb(15, 14, 14);
+    background-color:rgb(15, 14, 14);
 }
 
 .cont-list{
-     font-size: 1em;
+    font-size: 1em;
 }
 
 .min-list, .max-list{
     font-size:0.9em;
     font-weight:lighter;
 }
-
-
-@media(max-width:480px){
-    #game-content{
-        width:100%;
-        height:100%;
-    }
-    
-    .game-port{
-        width:160px;
-        height:220px;
-        margin-top:200px;
-        margin-left:150px;
-    }
-    
-    .titulo{
-        margin-top:0px;
-        margin-left:-40px;
-        font-size: 2em;
-        font-weight: bold;
-        text-align: center;
-    }
-    
-    .game-play{
-        width: 300px;
-        height: 200px;
-        margin-top: 100px;
-        margin-left:70px;
-    }
-    
-    #descript{
-        list-style:none;
-        font-size:1em;
-        font-weight:bold;
-        margin-top:-300px;
-        margin-left:150px;
-    }
-    
-    span{
-        font-size: 0.7em;
-        font-weight: lighter;
-    }
-    
-    #info-game{
-        align-items:center;
-        margin-top:250px;
-        margin-left:15%;
-        width:65%;
-        min-height:200px;
-        max-height:250px;
-    }
-    
-    .text-desc{
-        background-color:rgb(15, 14, 14);
-        padding:20px 50px 20px 50px;
-        text-align: center;
-        font-size:1em;
-    }
 }
 
 @media (min-width:481px) and (max-width:1024){
@@ -171,11 +214,8 @@ span{
     }
     
     .titulo{
-        margin-top:-120vp;
-        margin-left:-40px;
         font-size: 2em;
         font-weight: bold;
-        text-align: center;
     }
     
     .game-play{
@@ -203,8 +243,8 @@ span{
         margin-top:250px;
         margin-left:15%;
         width:65%;
-        min-height:200px;
-        max-height:250px;
+    min-height:200px;
+    max-height:600px;
     }
     
     .text-desc{
