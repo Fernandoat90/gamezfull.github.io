@@ -22,7 +22,6 @@
     transition: 0.4s;
 }
 
-
 /*Celulares*/
 @media(max-width:480px){
     #nav_list{
@@ -60,20 +59,24 @@
         display:flex;
         justify-content:space-between;
         list-style: none;
-        gap: 80px;
+        
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
     }
     
     #home{
         margin-right:-5px;
         margin-left:-5px;
-        width:50px;
+        width:35px;
     }
     
     .nav_op{
-        font-size: 1.2em;
+        font-size: 1.3em;
         font-weight: bold;
         text-decoration: none;
         color: white;
+        gap: 20%;
     }
     
     .nav_op:hover{
