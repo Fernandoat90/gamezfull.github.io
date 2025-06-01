@@ -1,4 +1,3 @@
-@media(min-width:1025px){
 #foot-head {
     display: flex;
     flex-wrap: wrap;
@@ -75,7 +74,7 @@ div {
     filter:brightness(90) invert(1);
     border-radius:50px;
 }
-}
+
 
 @media(max-width:480px){
 #foot-head {
