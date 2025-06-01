@@ -200,7 +200,7 @@ span{
 }
 }
 
-@media (min-width:481px) and (max-width:1024){
+@media (min-width: 481px) and (max-width: 1024px) {
     #game-content{
         width:100%;
         height:100%;
@@ -213,9 +213,13 @@ span{
         margin-left:150px;
     }
     
-    .titulo{
+    .titulo {
+        margin-top: 20px;
+        margin-left: 0;
         font-size: 2em;
         font-weight: bold;
+        text-align: center;
+        display: block;
     }
     
     .game-play{
