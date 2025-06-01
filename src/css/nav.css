@@ -59,10 +59,9 @@
         display:flex;
         justify-content:space-between;
         list-style: none;
-        
         flex-wrap: wrap;
         justify-content: center;
-        gap: 1.5rem;
+        gap: 2em;
     }
     
     #home{
