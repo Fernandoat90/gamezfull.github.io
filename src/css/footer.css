@@ -154,7 +154,7 @@ div {
 
 }
 
-@media(max-width:1024px){
+@media (min-width:481px) and (max-width:1024px){
     #foot-head {
     display: flex;
     flex-direction: column;
