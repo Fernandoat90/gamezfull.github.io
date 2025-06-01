@@ -127,7 +127,7 @@ hr {
 }
 
 /*Tablets*/
-@media(max-width:1024px){
+@media (min-width:481px) and (max-width:1024px){
     * {
         background-color: black;
         color: white;
